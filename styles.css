@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+input[type="search"] {
+    padding-right: 30px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    background-color:wheat; /* Blue background */
+    color: black;              /* White text */
+    border: none;              /* Remove border */
+    padding: 0 15px;           /* Horizontal padding */
+    font-size: 18px;           /* Adjust font size */
+    cursor: pointer;           /* Pointer cursor */
+    border-radius: 0 5px 5px 0; /* Rounded corners on right side */
+    transition: background-color 0.3s ease;
+}
+.AboutThis h2{
+    font-size: 2rem; /* Larger heading */
+    color: #007BFF; /* Primary color for heading */
+    margin-bottom: 20px;
+}
+.AboutThis{
+    max-width: 800px; /* Limit content width for better readability */
+    margin: 0 auto;
+    background-color: #f8f9fa; /* Light background for readability */
+    padding: 50px 20px;
+    text-align: center; /* Center align content */
+    font-family: Arial, sans-serif;
+}
+.AboutThis p{
+    font-size: 1rem; /* Standard paragraph size */
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Dark gray for text */
+    margin-bottom: 15px;
+}
+.start{
+    text-align: center;
+}
+.start h2{
+    margin: 20px;
+}
+.start button {
+    background-color: black; /* Black background */
+    color: white;            /* White text */
+    border: none;            /* Remove border */
+    border-radius: 5px;      /* Slightly rounded corners */
+    padding: 10px 20px;      /* Space inside the button */
+    font-size: 16px;         /* Font size */
+    cursor: pointer;         /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+button:hover {
+    background-color: #333; /* Slightly lighter black */
+    color: #f1f1f1;         /* Lighter text color */
+}
+button:active {
+    background-color: #555; /* Dark gray for active state */
+    transform: scale(0.98); /* Slight shrink effect */
+}
+
+button:focus {
+    outline: 2px solid white; /* White outline for accessibility */
+}
+.contactus{
+    height: 100px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px; ;
+}
