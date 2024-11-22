@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light Background */
+    color: #34495e; /* Primary Text Color */
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #2c3e50; /* Dark Text */
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Section for Best Sellers */
+#best-sellers {
+    padding: 20px;
+}
+
+/* Product Section Styles */
+.product-section {
+    text-align: center;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Subheader for Featured Products */
+.product-section h2 {
+    font-size: 2rem;
+    color: #3498db; /* Button and Link Color */
+    margin-bottom: 20px;
+}
+
+/* Product List Layout */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    transition: all 0.3s ease;
+}
+
+/* Styling for Each Product */
+.product {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 15px;
+}
+
+/* Button for Toggling Views */
+#toggle-view {
+    background-color: #3498db; /* Button Color */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#toggle-view:hover {
+    background-color: #2980b9; /* Hover Button Color */
+}
+
+/* Mobile and Tablet Responsiveness */
+@media (max-width: 768px) {
+    /* Adjust the layout to a single column on smaller screens */
+    .product-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    #toggle-view {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+
+/* View All Button */
+.view-all-button {
+    display: none;
+}
